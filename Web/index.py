@@ -9,6 +9,14 @@ app.config['SECRET_KEY'] = "dfdfdffdad"
 def login():
     return render_template('untitled.html')
 
+@app.route('/main')
+def main1():
+    return render_template('main.html')
+
+@app.route('/register')
+def register():
+    return render_template('register.html')
+
 @app.route('/index')
 def index():
     return render_template('index.html')
