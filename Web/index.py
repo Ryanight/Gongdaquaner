@@ -7,7 +7,7 @@ app.config['SECRET_KEY'] = "dfdfdffdad"
 
 @app.route('/')
 def login():
-    return render_template('untitled.html')
+    return render_template('login.html')
 
 @app.route('/main')
 def main1():
